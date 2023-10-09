@@ -17,7 +17,7 @@ Estilos de la Fuente
   font-style: italic;
   font-variant: small-caps;
   line-height: 2;
-  font: italic small-caps bold 24px / 1.5 monospace ;
+  font: italic small-caps bold 24px / 1.5 monospace;
 }
 
 /* 
@@ -33,13 +33,13 @@ font-display
 
 @font-face {
   font-family: "chalet";
-  src: url(/modulo-2/assets/img/Chalet.woff) format("woff"); 
+  src: url(/modulo-2/assets/img/Chalet.woff) format("woff");
   font-display: swap;
   /* src: url(/modulo-2/assets/img/Chalet.woff) format("woff"), 
         url(/modulo-2/assets/img/Chalet.woff2) format("woff2"); */
 }
 
-.chalet{
+.chalet {
   font-family: "Chalet", sans-serif;
   font-size: 2rem;
 }
@@ -56,7 +56,7 @@ font-display
 }
 
 .raleway {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 2rem;
 }
 
@@ -120,10 +120,10 @@ writing-mode
 }
 
 .material-icons {
-  font-family: 'Material Icons';
+  font-family: "Material Icons";
   font-weight: normal;
   font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
+  font-size: 24px; /* Preferred icon size */
   display: inline-block;
   line-height: 1;
   text-transform: none;
@@ -141,5 +141,5 @@ writing-mode
   -moz-osx-font-smoothing: grayscale;
 
   /* Support for IE. */
-  font-feature-settings: 'liga';
+  font-feature-settings: "liga";
 }
