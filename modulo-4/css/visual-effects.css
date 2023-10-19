@@ -11,10 +11,19 @@ html {
 }
 
 .box {
-  border: thin solid black;
+  border: thick solid black;
   margin-left: auto;
   margin-right: auto;
   width: 200px;
   height: 200px;
 }
 
+.box-shadow {
+  color: navy;
+  /* box-shadow: mov-x mov-y blur-radius spread-blur color inset/outset; */
+  box-shadow: 1rem 1rem 1rem 1rem;
+  box-shadow: -1rem -1rem 1rem 1rem;
+  box-shadow: 1rem 1rem 1rem 1rem #0005;
+  box-shadow: 1rem 1rem 1rem 1rem #f00 inset; /*Oh; outset, pero no lo escribas eso ya es predeterminado*/
+  box-shadow: 1rem 1rem 2rem 0.5rem #0007;
+}
