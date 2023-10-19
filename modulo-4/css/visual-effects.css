@@ -14,16 +14,28 @@ html {
   border: thick solid black;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 5rem;
   width: 200px;
   height: 200px;
 }
 
-.box-shadow {
+.shadows {
   color: navy;
+  font-size: 2rem;
+  text-align: center;
   /* box-shadow: mov-x mov-y blur-radius spread-blur color inset/outset; */
   box-shadow: 1rem 1rem 1rem 1rem;
   box-shadow: -1rem -1rem 1rem 1rem;
   box-shadow: 1rem 1rem 1rem 1rem #0005;
   box-shadow: 1rem 1rem 1rem 1rem #f00 inset; /*Oh; outset, pero no lo escribas eso ya es predeterminado*/
   box-shadow: 1rem 1rem 2rem 0.5rem #0007;
+  /* text-shadow: mov-x mov-y blur-radius color; */
+  text-shadow: -1rem -1rem 0.25rem hotpink;
+}
+
+.shadows-multipe {
+  font-size: 2rem;
+  text-align: center;
+  box-shadow: 1rem 1rem 1rem 1rem #0005, 1rem 1rem 1rem 1rem #f00 inset, -0.5rem -0.5rem 0.5rem 2rem hotpink;
+  text-shadow: -1rem -1rem 0.25rem navy, 1rem 1rem 0.5rem greenyellow;
 }
