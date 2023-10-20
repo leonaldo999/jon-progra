@@ -227,3 +227,71 @@ html {
     conic-gradient(cyan 0% 50%, magenta 50% 80%, yellow 80%);
   border-radius: 50%;
 }
+
+.card {
+  border: thick solid black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+  width: 600px;
+  height: 400px;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0 50%;
+
+  filter: blur(1rem);
+  filter: blur(0.25rem);
+  filter: blur(0.15rem);
+  filter: brightness(1);
+  filter: brightness(0.75);
+  filter: brightness(0.5);
+  filter: brightness(0.25);
+  filter: brightness(0);
+  filter: brightness(2);
+  filter: brightness(4);
+  filter: contrast(0);
+  filter: contrast(0.25);
+  filter: contrast(0.5);
+  filter: contrast(0.75);
+  filter: contrast(1);
+  filter: contrast(2);
+  filter: contrast(4);
+  filter: grayscale(0);
+  filter: grayscale(0.25);
+  filter: grayscale(0.5);
+  filter: grayscale(0.75);
+  filter: grayscale(1);
+  filter: sepia(0);
+  filter: sepia(0.25);
+  filter: sepia(0.5);
+  filter: sepia(0.75);
+  filter: sepia(1);
+  filter: hue-rotate(0deg);
+  filter: hue-rotate(30deg);
+  filter: hue-rotate(60deg);
+  filter: hue-rotate(90deg);
+  filter: hue-rotate(120deg);
+  filter: hue-rotate(150deg);
+  filter: hue-rotate(210deg);
+  filter: hue-rotate(240deg);
+  filter: hue-rotate(270deg);
+  filter: hue-rotate(300deg);
+  filter: hue-rotate(330deg);
+  filter: invert(0);
+  filter: invert(1);
+  filter: opacity(0);
+  filter: opacity(0.25);
+  filter: opacity(0.5);
+  filter: opacity(0.75);
+  filter: saturate(0);
+  filter: saturate(0.25);
+  filter: saturate(0.5);
+  filter: saturate(0.75);
+  filter: saturate(1);
+  filter: saturate(4);
+  filter: drop-shadow(1rem 1rem 1rem steelblue);
+}
