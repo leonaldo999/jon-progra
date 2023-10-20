@@ -242,8 +242,10 @@ html {
   height: 100%;
   object-fit: cover;
   object-position: 0 50%;
+}
 
-  filter: blur(1rem);
+.filter {
+  /* filter: blur(1rem);
   filter: blur(0.25rem);
   filter: blur(0.15rem);
   filter: brightness(1);
@@ -293,5 +295,10 @@ html {
   filter: saturate(0.75);
   filter: saturate(1);
   filter: saturate(4);
-  filter: drop-shadow(1rem 1rem 1rem steelblue);
+  filter: drop-shadow(1rem 1rem 1rem steelblue); */
+  filter: invert(1);
+}
+
+.filters-multiple {
+  filter: blur(0.1rem) hue-rotate(270deg) opacity(0.75) invert(1);
 }
