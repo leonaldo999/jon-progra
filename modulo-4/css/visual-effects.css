@@ -54,7 +54,7 @@ html {
   filter: drop-shadow(1rem 1rem 1rem orangered);
 }
 
-.linear-gradiernt {
+.linear-gradient {
   background-image: linear-gradient(red, green);
   background-image: linear-gradient(red, green, blue);
   background-image: linear-gradient(0deg, red, green, blue);
@@ -76,7 +76,7 @@ html {
   background-image: linear-gradient(90deg, red 33%, white 34% 67%, red 68%);
 }
 
-.radial-gradiernt {
+.radial-gradient {
   background-image: radial-gradient(cyan, magenta);
   background-image: radial-gradient(cyan, magenta, yellow);
   background-image: radial-gradient(4rem, cyan, magenta, yellow);
@@ -142,4 +142,40 @@ html {
     yellow 90%
   );
   background-image: radial-gradient(circle 100px, red 50%, white 50%);
+}
+
+.conic-gradient {
+  background-image: conic-gradient(red, green);
+  background-image: conic-gradient(red, green, blue);
+  background-image: conic-gradient(red 0% 50%, green 60%, blue 80%);
+  background-image: conic-gradient(
+    red 0deg 90deg,
+    green 120deg 240deg,
+    blue 270deg
+  );
+  background-image: conic-gradient(
+    from 90deg,
+    red 0deg 90deg,
+    green 120deg 240deg,
+    blue 270deg
+  );
+  background-image: conic-gradient(
+    from 180deg,
+    red 0deg 90deg,
+    green 120deg 240deg,
+    blue 270deg
+  );
+  background-image: conic-gradient(
+    from 270deg,
+    red 0deg 90deg,
+    green 120deg 240deg,
+    blue 270deg
+  );
+
+  background-image: conic-gradient(
+    from 90deg,
+    red 0deg 120deg,
+    white 120deg 240deg,
+    blue 240deg
+  );
 }
