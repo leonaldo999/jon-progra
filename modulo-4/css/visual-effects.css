@@ -361,6 +361,7 @@ html {
 }
 
 .blend-modes img {
+  /*
   mix-blend-mode: normal;
   mix-blend-mode: color;
   mix-blend-mode: color-dodge;
@@ -375,6 +376,31 @@ html {
   mix-blend-mode: hard-light;
   mix-blend-mode: soft-light;
   mix-blend-mode: lighten;
-  mix-blend-mode: darken;
+  mix-blend-mode: darken; 
+  */
   mix-blend-mode: overlay;
+}
+
+.bg-blend-modes {
+  background-image: url(/modulo-3/img/puesta-sol.jpg),
+    url(/modulo-3/img/BuenosDias.jpg);
+    background-size: cover;
+  /* 
+  background-blend-mode: normal;
+  background-blend-mode: color;
+  background-blend-mode: color-dodge;
+  background-blend-mode: color-burn;
+  background-blend-mode: screen;
+  background-blend-mode: multiply;
+  background-blend-mode: saturation;
+  background-blend-mode: luminosity;
+  background-blend-mode: hue;
+  background-blend-mode: exclusion;
+  background-blend-mode: difference;
+  background-blend-mode: hard-light;
+  background-blend-mode: soft-light;
+  background-blend-mode: lighten;
+  background-blend-mode: overlay; 
+  */
+  background-blend-mode: darken;
 }
