@@ -384,7 +384,7 @@ html {
 .bg-blend-modes {
   background-image: url(/modulo-3/img/puesta-sol.jpg),
     url(/modulo-3/img/BuenosDias.jpg);
-    background-size: cover;
+  background-size: cover;
   /* 
   background-blend-mode: normal;
   background-blend-mode: color;
@@ -403,4 +403,49 @@ html {
   background-blend-mode: overlay; 
   */
   background-blend-mode: darken;
+}
+
+.clip-path {
+  /* 
+  clip-path: circle();
+  clip-path: circle(2rem);
+  clip-path: circle(100px);
+  clip-path: circle(100px at top);
+  clip-path: circle(100px at left);
+  clip-path: circle(100px at right);
+  clip-path: circle(100px at bottom);
+  clip-path: circle(100px at left bottom);
+  clip-path: circle(100px at right bottom);
+  clip-path: circle(100px at left top);
+  clip-path: circle(100px at right top);
+  clip-path: circle(100px at 0 0);
+  clip-path: circle(100px at 30%);
+  clip-path: circle(100px at 20% 60%);
+  clip-path: ellipse(1rem 2rem);
+  clip-path: ellipse(2rem 1rem);
+  clip-path: ellipse(100px 50px);
+  clip-path: ellipse(100px 50px at left);
+  clip-path: ellipse(100px 50px at right);
+  clip-path: ellipse(100px 50px at top);
+  clip-path: ellipse(100px 50px at bottom);
+  clip-path: ellipse(100px 50px at left bottom);
+  clip-path: ellipse(100px 50px at right bottom);
+  clip-path: ellipse(100px 50px at left top);
+  clip-path: ellipse(100px 50px at right top);
+  clip-path: ellipse(100px 50px at 0 0);
+  clip-path: ellipse(100px 50px at 300px 50px);
+  clip-path: ellipse(100px 50px at 18% 60%); 
+  clip-path: inset(2rem);
+  clip-path: inset(4rem);
+  clip-path: inset(2rem 1rem);
+  clip-path: inset(3rem 2rem 1rem);
+  clip-path: inset(3rem 2rem 1rem 0.5rem);
+  clip-path: inset(1rem round 1rem);
+  clip-path: inset(1rem round 1rem 2rem);
+  clip-path: inset(1rem round 1rem 2rem 3rem);
+  clip-path: inset(1rem round 1rem 2rem 3rem 4rem);
+  clip-path: polygon( 0 0, 100% 0, 50% 100%);
+  */
+  /*Convertidor: https://bennettfeely.com/clippy/ */
+  clip-path: polygon(50% 0%, 61% 35%, 96% 18%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 0 15%, 39% 35%);
 }
