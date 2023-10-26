@@ -23,6 +23,7 @@ body {
   scroll-snap-type: block mandatory;
   scroll-snap-type: y mandatory;
   scroll-snap-type: y proximity;
+  scroll-snap-type: both mandatory;
 }
 
 .slide {
@@ -51,4 +52,39 @@ body {
   align-items: center;
   font-size: 3vw;
   color: #d9e8f0;
+}
+
+.carusel {
+  border: thick solid #d938f0;
+  display: flex;
+  width: 50%;
+  height: 50vh;
+  overflow-x: hidden;
+}
+
+.carusel-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 100%);
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-snap-type: inline mandatory;
+  scroll-snap-type: both proximity;
+}
+
+.carusel-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #108eb4;
+  scroll-snap-align: none;
+  scroll-snap-align: start;
+  scroll-snap-align: end;
+  scroll-snap-align: center;
+}
+
+.carusel-slide:nth-child(even) {
+  background-color: #1e2345;
 }
