@@ -42,6 +42,8 @@ Transiciones:
   transition-timing-function: none, linear. ease, ease-in, ease-out, ease-in-out y steps.
   transition-delay
   transition
+
+  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
 */
 .transitions .box {
   background-color: magenta;
@@ -49,11 +51,33 @@ Transiciones:
   transition-duration: 500ms;
   transition-timing-function: ease;
   transition-delay: 0.5s;
-  transition: border-color 2s linear 1s;transition: all 2s ease-in-out 250ms;
+  transition: border-color 2s linear 1s;
+  transition: all 2s ease-in-out 250ms;
 }
 
 .transitions .box:hover {
   background-color: cyan;
   border-color: red;
   border-radius: 2rem;
+  /* border-style: dashed; */
+}
+
+.transitions .card {
+  transition: opacity 1s ease-out, border-color 3s steps(5),
+    filter 2s ease-in 1s, box-shadow 1.5s linear 2s;
+}
+
+.transitions .card:hover {
+  opacity: 0.75;
+  border-color: orchid;
+  filter: blur(0.15rem);
+  box-shadow: 1rem 1rem 2rem 0.5rem #000;
+}
+
+.transitions .card img {
+  transition: object-position 2s ease-in-out 3s;
+}
+
+.transitions .card img:hover{
+  object-position: 100% 50%;
 }
