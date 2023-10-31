@@ -85,11 +85,11 @@ Transiciones:
   object-position: 100% 50%;
 }
 
-.transforms-2d img {
+.transform-2d img {
   transition: transform 2s ease-in-out;
 }
 
-.transforms-2d img:hover {
+.transform-2d img:hover {
   transform: none;
   transform: translateX(4rem);
   transform: translateX(-4rem);
@@ -125,5 +125,23 @@ Transiciones:
   https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/matrix
   */
   transform: matrix(1, 2, 2, 1, 20, 20);
-  transform: translate(25%, -50%) rotate(240deg) skew(10deg, 20deg) scale(-.5, -.5);
+  transform: translate(25%, -50%) rotate(240deg) skew(10deg, 20deg)
+    scale(-0.5, -0.5);
+}
+
+.transform-3d {
+  perspective: 10rem;
+}
+
+.transform-3d img {
+  transition: transform 2s ease-in-out;
+}
+
+.transform-3d img:hover {
+  transform: translateZ(4rem);
+  transform: perspective(1000px) translateZ(4rem);
+  transform: perspective(1rem) translateZ(4rem);
+  transform: perspective(10rem) translateZ(4rem);
+  transform: perspective(10rem) translateZ(-4rem);
+  transform: translateZ(-4rem);
 }
