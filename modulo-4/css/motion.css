@@ -125,4 +125,5 @@ Transiciones:
   https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/matrix
   */
   transform: matrix(1, 2, 2, 1, 20, 20);
+  transform: translate(25%, -50%) rotate(240deg) skew(10deg, 20deg) scale(-.5, -.5);
 }
