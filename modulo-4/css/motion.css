@@ -53,6 +53,8 @@ Transiciones:
   transition-delay: 0.5s;
   transition: border-color 2s linear 1s;
   transition: all 2s ease-in-out 250ms;
+  transition: background-color 2s ease-in-out 250ms,
+    border-color 2s ease-in-out 250ms, border-radius 2s ease-in-out 250ms;
 }
 
 .transitions .box:hover {
@@ -78,6 +80,6 @@ Transiciones:
   transition: object-position 2s ease-in-out 3s;
 }
 
-.transitions .card img:hover{
+.transitions .card img:hover {
   object-position: 100% 50%;
 }
