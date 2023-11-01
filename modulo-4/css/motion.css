@@ -144,4 +144,14 @@ Transiciones:
   transform: perspective(10rem) translateZ(4rem);
   transform: perspective(10rem) translateZ(-4rem);
   transform: translateZ(-4rem);
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate3d */
+  transform: translate3d(2rem, 50%, -3rem);
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale3d */
+  transform: scale3d(2, 0.5, 2);
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d */
+  transform: rotateX(60deg);
+  transform: rotateY(-60deg);
+  transform: rotate3d(1, 1, 1, 45deg);
+  transform: rotate3d(1, .5, 0, -45deg);
+  transform: rotate3d(-1, 2.5, -2, 60deg);
 }
