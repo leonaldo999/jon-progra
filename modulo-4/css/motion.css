@@ -474,3 +474,26 @@ Transiciones:
   border-bottom-color: #09f;
   animation: spinner 1s ease-out infinite;
 }
+
+.btn {
+  position: relative;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.2rem;
+  width: 15rem;
+  height: 2.5rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  cursor: pointer;
+  overflow: hidden;
+  box-shadow: 0.25rem 0.25rem 0.5rem 0.15rem rgba(0, 0, 0, 0.3);
+}
+
+.anim-bottom::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0.25rem;
+  background-color: #d00;
+}
