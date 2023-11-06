@@ -647,3 +647,51 @@ Transiciones:
 .off-canvas-btn:checked + .off-canvas-burger::after {
   transform: rotate(-45deg) translate(0.4rem, -0.5rem);
 }
+
+.off-canvas-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 997;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00a8;
+  transition: transform 500ms ease-in-out;
+  transform: translate(0, -100%);
+  transform: translate(0, 100%);
+  transform: translate(-100%, 0);
+  transform: translate(100%, 0);
+}
+
+.off-canvas-btn:checked ~ .off-canvas-menu {
+  transform: translate(0, 0);
+}
+
+.off-canvas-menu-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.off-canvas-link {
+  border-bottom: thin solid #d00;
+  padding: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  transition: background-color 300ms ease;
+}
+
+.off-canvas-link:first-child {
+  border-top: thin solid #d00;
+}
+
+.off-canvas-link:hover {
+  background-color: #d005;
+}
