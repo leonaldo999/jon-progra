@@ -588,3 +588,62 @@ Transiciones:
 #tab-4:checked ~ .tab-bg-hover {
   transform: translateX(300%);
 }
+
+.off-canvas-btn {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 999;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  /* opacity: 0.25; */
+  opacity: 0;
+}
+
+.off-canvas-burger {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 998;
+  width: 3rem;
+  height: 0.6rem;
+  border-radius: 0.3rem;
+  background-color: #b00;
+  transform: rotate(0deg) translate(0, -1.2rem);
+  transform-origin: top left;
+  transition: transform 0.5s ease, background-color 500ms ease;
+}
+
+.off-canvas-burger::before,
+.off-canvas-burger::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0.6rem;
+  background-color: #d00;
+  border-radius: 3rem;
+  transition: transform 500ms ease;
+}
+
+.off-canvas-burger::before {
+  transform: rotate(0deg) translate(0, -0.9rem);
+  /* background-color: blue; */
+}
+
+.off-canvas-burger::after {
+  transform: rotate(0deg) translate(0, 0.3rem);
+  /* background-color: green; */
+}
+
+.off-canvas-btn:checked + .off-canvas-burger {
+  background-color: transparent;
+}
+
+.off-canvas-btn:checked + .off-canvas-burger::before {
+  transform: rotate(45deg) translate(0, 0);
+}
+
+.off-canvas-btn:checked + .off-canvas-burger::after {
+  transform: rotate(-45deg) translate(0.4rem, -0.5rem);
+}
