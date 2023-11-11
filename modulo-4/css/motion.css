@@ -695,3 +695,61 @@ Transiciones:
 .off-canvas-link:hover {
   background-color: #d005;
 }
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 997;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a08;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 500ms ease-in-out;
+}
+
+.modal:target{
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-container {
+  position: relative;
+  border: thick double #d00;
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 70%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  overflow: hidden;
+
+  background-color: #fff;
+}
+
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 3rem;
+  text-decoration: none;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #d00;
+  transition: background-color 300ms linear, transform 300ms ease-in-out;
+}
+
+.modal-close:hover{
+  background-color: #a00;
+  transform: scale(1.2);
+}
