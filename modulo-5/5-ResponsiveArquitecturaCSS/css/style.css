@@ -1,0 +1,14 @@
+[class^="box"] {
+  margin: 3rem auto;
+  background-color: orangered;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+}
+
+.box-flexible {
+  width: 50%;
+  height: 20vh;
+}
