@@ -12,3 +12,10 @@
   width: 50%;
   height: 20vh;
 }
+
+.box-flexible-2 {
+  max-width: 960px;
+  min-width: 280px;
+  min-height: 480px;
+  min-height: 280px;
+}
