@@ -37,3 +37,8 @@
   width: 50%;
   height: 20vh;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
