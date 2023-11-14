@@ -19,3 +19,21 @@
   min-height: 480px;
   min-height: 280px;
 }
+
+.box-flexible-3 {
+  max-width: 960px;
+  min-width: 280px;
+  min-height: 480px;
+  min-height: 280px;
+  width: 300px;
+  height: 300px;
+}
+
+.box-flexible-4 {
+  max-width: 960px;
+  min-width: 280px;
+  min-height: 480px;
+  min-height: 280px;
+  width: 50%;
+  height: 20vh;
+}
