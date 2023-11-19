@@ -1,0 +1,47 @@
+/* Selector de anidamiento & */
+h1 {
+  background-color: aquamarine;
+
+  &:hover {
+    background-color: brown;
+  }
+}
+
+/* Formas de anidamiento */
+h3 {
+  color: black;
+}
+
+h3:hover {
+  color: red;
+}
+
+/* Estilos CSS normales */
+/* .example {
+  font-family: system-ui;
+  font-size: 1.2rem;
+}
+
+.example > a {
+  color: tomato;
+}
+
+.example > a:hover,
+.example > a:focus {
+  color: ivory;
+  background-color: tomato;
+} */
+
+/* Estilos CSS anidados */
+.example {
+  font-family: system-ui;
+  font-size: 1.2rem;
+  & > a {
+    color: tomato;
+    &:hover,
+    &:focus {
+      color: white;
+      background-color: tomato;
+    }
+  }
+}
