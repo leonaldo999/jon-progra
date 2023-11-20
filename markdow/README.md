@@ -27,3 +27,5 @@ Aplicando _CuRsIvA_ y **NeGrItAs** & **_Cursiva y Negrita_**
 [Aprendiendo _Markdown_](#aprendiendo-markdown)
 
 [Otro encabezado](#otro-encabezado-de-ejem)
+
+![Esto es una Imagen](https://jonmircha.com/img/blog/this-is-javascript.jpg)
