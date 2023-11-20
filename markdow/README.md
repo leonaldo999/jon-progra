@@ -19,3 +19,11 @@ Aplicando _CuRsIvA_ y **NeGrItAs** & **_Cursiva y Negrita_**
 ##### Encabezado 5
 
 ###### Encabezado 6
+
+## Otro encabezado de Ejem
+
+[YouTube](https://youtube.com/TheLeonaldo99)
+
+[Aprendiendo _Markdown_](#aprendiendo-markdown)
+
+[Otro encabezado](#otro-encabezado-de-ejem)
