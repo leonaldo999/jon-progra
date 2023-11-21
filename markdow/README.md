@@ -29,3 +29,10 @@ Aplicando _CuRsIvA_ y **NeGrItAs** & **_Cursiva y Negrita_**
 [Otro encabezado](#otro-encabezado-de-ejem)
 
 ![Esto es una Imagen](https://jonmircha.com/img/blog/this-is-javascript.jpg)
+
+---
+Este es un parrafo
+
+---
+
+y este es otro texto
