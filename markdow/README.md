@@ -60,3 +60,11 @@ y este es otro texto
   - Septiembre
 * Otoño
 * Invierno
+
+> Siempre tienes obcion de no tener opinion. - Marco Aurelio
+
+> Todo lo que escuchamos es una opinion, no un echo.
+>
+> Todo lo que vemos es una prespectiva, no la verdad.
+>
+> Marco Aurelio.
