@@ -31,8 +31,32 @@ Aplicando _CuRsIvA_ y **NeGrItAs** & **_Cursiva y Negrita_**
 ![Esto es una Imagen](https://jonmircha.com/img/blog/this-is-javascript.jpg)
 
 ---
+
 Este es un parrafo
 
 ---
 
 y este es otro texto
+
+1. Primavera
+2. Verano
+3. Otoño
+4. Invierno
+
+- Primavera
+- Verano
+- Otoño
+- Invierno
+
+* Primavera
+  - Abril
+  - Mayo
+    - Dia de la Madre🎇🎉
+  - Junio
+* Verano
+  - Julio
+    - Fiestas Patrias 🎊🎆
+  - Agosto
+  - Septiembre
+* Otoño
+* Invierno
