@@ -68,3 +68,9 @@ y este es otro texto
 > Todo lo que vemos es una prespectiva, no la verdad.
 >
 > Marco Aurelio.
+
+| Nombre: | Edad:   | Correo:          |
+| ------- | ------- | ---------------- |
+| Naldo   | 30 años | naldo@gmail.com  |
+| Lasha   | 10 años | lasha@ gmail.com |
+| Mona    | 6 años  | mona@gmail.com   |
