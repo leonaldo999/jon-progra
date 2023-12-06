@@ -1,3 +1,4 @@
+/*
 .emocionante-text::after {
   content: " <- ¡EMOCIONANTE! ";
   color: green;
@@ -40,4 +41,89 @@ span[data-descr]:focus::after {
   color: #000000;
   font-size: 14px;
   z-index: 1;
+}
+*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: helvetica;
+  background: #f5f6f7;
+  color: darkblue;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+  background-image: url(img/huellas-per.jpg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  border: 1px solid;
+  /* z-index: 0; */
+}
+
+#logo {
+  width: max(80px, 5vw);
+  background-color: aquamarine;
+  aspect-ratio: 20 / 17.5;
+  padding: -3rem;
+}
+
+h1 {
+  color: red;
+  background-color: antiquewhite;
+  /* position: relative; */
+}
+
+nav {
+  width: 50%;
+  max-width: 300px;
+  height: 50px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+}
+
+nav li {
+  color: red;
+  background-color: antiquewhite;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+}
+
+nav > ul > li:hover {
+  background-color: #cf569f;
+  color: #1b1b32;
+  cursor: pointer;
+}
+
+li > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+div {
+  padding-top: 80px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto 10px auto;
+  max-width: 600px;
 }

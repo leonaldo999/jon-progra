@@ -74,3 +74,18 @@ y este es otro texto
 | Naldo   | 30 años | naldo@gmail.com  |
 | Lasha   | 10 años | lasha@ gmail.com |
 | Mona    | 6 años  | mona@gmail.com   |
+
+Lorem ipsum, dolor sit amet consectetur adipisicing. Quas tempora exercitationem aperiam doloribus sed
+consequuntur `let`
+dolorem cupiditate enim impedit. Dolor sit libero voluptatibus! Id fuga autem quibusdam ut. Harum, odit.
+
+```js
+function sumar (a, b) {
+  return a + b;
+}
+```
+
+<form>
+<label for="q">Buscar:</label>
+<input type ="search" name="q" id="q">
+</form>
