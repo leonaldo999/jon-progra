@@ -89,3 +89,7 @@ function sumar (a, b) {
 <label for="q">Buscar:</label>
 <input type ="search" name="q" id="q">
 </form>
+
+<!-- Comentario en Markdown -->
+
+\*\*Negrita\*\* y \_cursiva\_
