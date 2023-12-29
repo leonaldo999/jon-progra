@@ -178,6 +178,7 @@
     console.log(Boolean(" "));
     */
 
+    /*
     //Undefined indica q no se ha inicializado una variable y q el valor esta ausente.
     let indefinida;
     console.log(indefinida);
@@ -189,9 +190,67 @@
     //Nan = Not a Number
     let noEsUnNumero = "Hola" * 3.7;
     console.log(noEsUnNumero);
+    */
 
+    //Una FUNCION es un bloque de codigo, autocontenido, q se puede definir una vez y ejecutaren cualquier momento. Obcionalmente, una funcion puede aceptar parametros y devolver un valor.
+    
+    //Las funciones en JavaScript son objetos, un tipo especial de objetos.
 
+    //se dice q las funciones son ciudadanos de primera clase porque pueden asignarse a un valor, y pueden pasarse como argumentos y usarse como un valor de retorno.
+
+    //Declaracion de Funcion
+
+    function estoEsUnaFuncion() {
+      console.log("Uno");
+      console.log("Dos");
+      console.log("Tres");
+    }
+    
+    //Invocacion de Funcio
+    // estoEsUnaFuncion();
+    // estoEsUnaFuncion();
+    // estoEsUnaFuncion();
+    // estoEsUnaFuncion();
+
+    function unaFuncionQueDevuelveValor() {
+      console.log("Uno");
+      return 19;
+      console.log("Dos");
+      console.log("Tres");
+      return "La Funcion ha retornado una Cadena de texto";
+    }
+
+    //let valorDeFuncion = unaFuncionQueDevuelveValor();
+    
+    //console.log(valorDeFuncion);
+
+    function saludar (nombre="Desconocido", edad=0){
+      console.log(`Hola mi nombre es ${nombre} y tengo ${edad} años.`);
+    }
+
+    //saludar("Mona", 7)
+    //saludar();
+
+    //funciones "declaradas" VS. Funciones "Expresadas".
+
+    funcionDeclarada();
+    
+    function funcionDeclarada(){
+      console.log("Esto es una funcion declarada, puede invocarce en cualquier parte de nuestro codigo, incluso antes de q la funcion sea declarada");
+    }
+
+    funcionDeclarada();
+
+    //Funcion Anonima
+    //funcionExpresada();
+  
+    const funcionExpresada = function(){
+      console.log("Esto es una funcion expresada, es decir, una funcion q se ha asignado como valor a una variable , si invocamos a esta funcion antes de su definicion JS nos dira ' can't access lexical declaration 'funcionExpresada' before initialization'");
+    }
+
+    funcionExpresada();
     /**/
+
     /**/
 
 
