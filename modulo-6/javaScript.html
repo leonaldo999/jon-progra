@@ -22,7 +22,7 @@
     console.log(window.hello);
     */
 
-    
+
     //Ambito de Bloque
     //Esto es un Bloque contenido de una linea 
     /* 
@@ -192,6 +192,7 @@
     console.log(noEsUnNumero);
     */
 
+    /*
     //Una FUNCION es un bloque de codigo, autocontenido, q se puede definir una vez y ejecutaren cualquier momento. Obcionalmente, una funcion puede aceptar parametros y devolver un valor.
     
     //Las funciones en JavaScript son objetos, un tipo especial de objetos.
@@ -249,6 +250,47 @@
     }
 
     funcionExpresada();
+    */
+
+    const a = [];
+    const b = [1, true, "Hola", ["A", "B", "C", [1, 2, 3]]];
+    console.log(a);
+    console.log(b);
+    console.log(b.length);
+    console.log(b[2]);
+    console.log(b[0]);
+    console.log(b[3][2]);
+    console.log(b[3][3][2]);
+
+    const c = Array.of("X", "Y", "Z", 9, 8, 7);
+    console.log(c);
+
+    const d = Array(100).fill(false);
+    console.log(d);
+
+    //Forma antigua
+    const e = new Array();
+    console.log(e);
+
+    //too
+    const f = new Array(1, 2, 3, true, false);
+    console.log(f);
+
+    const colores = ["Rojo", "Verde", "Azul"];
+    console.log(colores);
+
+    //Agrega elemento al final
+    colores.push("Negro");
+    console.log(colores);
+
+    //Quita elemento final  
+    colores.pop()
+    console.log(colores);
+
+    //Lista con metodo (forEach)
+    colores.forEach(function (el, index) {
+      console.log(`<li id="${index}">${el}</li>`);
+    })
     /**/
 
     /**/
