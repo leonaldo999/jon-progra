@@ -252,6 +252,7 @@
     funcionExpresada();
     */
 
+    /*
     const a = [];
     const b = [1, true, "Hola", ["A", "B", "C", [1, 2, 3]]];
     console.log(a);
@@ -291,6 +292,56 @@
     colores.forEach(function (el, index) {
       console.log(`<li id="${index}">${el}</li>`);
     })
+    */
+
+    let a = new String("Hola");
+    //console.log(a);
+
+    const b = {}
+    console.log(b);
+
+    const c = new Object();
+    console.log(c);
+
+    /*Dentro de un objeto, a las variables se le van a llamar atributos/propiedades y a las funciones se les llama metodos */
+    const leo = {
+      nombre: "Leo",
+      apellido: "Naldo",
+      edad: 30,
+      pais: "Peru",
+      pasatiempos: ["Correr", "Hacer ejercicios", "Video gamer"],
+      soltero: true,
+      contacto: {
+        email: "leonaldo999@gmail.com",
+        twitter: "@leonaldo999",
+        movil: "926835672"
+      },
+      saludar: function () {
+        console.log(`Hola :)`);
+      },
+      decirMiNombre : function() {
+        console.log(`Hola me llamo ${this.nombre} ${this.apellido} y tengo ${this.edad} años y me pudes seguir como ${this.contacto.twitter} en twitter.`);
+      }
+    }
+
+    console.log(leo);
+    console.log(leo["nombre"]);
+    console.log(leo["apellido"]);
+    console.log(leo.nombre);
+    console.log(leo.apellido);
+    console.log(leo.edad);
+    console.log(leo.soltero);
+    console.log(leo.pasatiempos);
+    console.log(leo.pasatiempos[1]);
+    console.log(leo.contacto);
+    console.log(leo.contacto.email);
+    leo.saludar();
+    leo.decirMiNombre();
+
+    console.log(Object.keys(leo));
+    console.log(Object.values(leo));
+    console.log(leo.hasOwnProperty("nombre"));
+    console.log(leo.hasOwnProperty("nacimiento"));
     /**/
 
     /**/
