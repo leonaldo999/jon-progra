@@ -519,7 +519,7 @@
     do {
       console.log("do while " + contador);
       contador++;
-    } while (contador < 10);*/
+    } while (contador < 10);
 
     //for
     //EJEM:
@@ -560,8 +560,35 @@
     for (const caracter of cadena) {
       console.log(caracter);
     }
+    */
+
+    //Manejo de errores
+    try {
+      console.log("En el try se agrega el codigo a evaluar");
+      estasAprendiendoVamos
+      console.log("Segundo mensaje en try");
+    } catch (error) {
+      console.log("Catch, captura cualquier error surgido o lanzado en el try");
+      console.log(error);
+    } finally {
+      console.log("El bloque finally se ejecutara siempre al final de un bloque try-catch");
+    }
+
+    try {
+      let numero = "y";
+
+      if (isNaN(numero)) {
+        throw new Error("El caracter introducido no es un Numero");
+      }
+
+      console.log(numero * numero);
+    }
+    catch (error) {
+      console.log(`Se produjo el siguiente error: ${error}`);
+    }
 
 
+    /**/
     /**/
 
 
