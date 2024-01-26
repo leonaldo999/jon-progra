@@ -589,6 +589,7 @@
     }
     */
 
+    /*
     //break - continue
     //break
     const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
@@ -607,7 +608,29 @@
       }
       console.log(numeros[i]);
     }
+    */
 
+    const numeros = [1, 2, 3]
+
+    //Sin destructuracion 
+    let uno = numeros[0],
+      dos = numeros[1],
+      tres = numeros[2];
+
+    console.log(uno, dos, tres);
+
+    //Con destructuracion
+    const [one, two, three] = numeros;
+    console.log(one, two, three);
+
+    const persona = {
+      nombre: "Leo",
+      apellido: "Naldo",
+      hoby: "programar"
+    }
+
+    let { nombre, apellido, hoby } = persona;
+    console.log(nombre, apellido, hoby);
 
     /**/
     /**/
