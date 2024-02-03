@@ -746,6 +746,82 @@
     perro.ladrar();
     */
 
+    /*
+    //POO = Programacion Orientada A Objetos
+
+    //Clases - Modelo a Seguir.
+    //Objetos - Es una instancia de una clase.
+    //-Atributos: es una caracteristica o propiedad del objeto (son variables dentro de un objeto)
+    //-Metodeos: son las acciones q un objeto puede realizar (son funciones dentro de un objeto)
+
+    const animal = {
+      nombre: "Silvestre",
+      sonar() {
+        console.log("Hago sonidos por q estoy vivo");
+      }
+    }
+
+    const animal2 = {
+      nombre: "busBunny",
+      sonar() {
+        console.log("Hago sonidos por q estoy vivo");
+      }
+    }
+
+    console.log(animal);
+    console.log(animal2);
+    
+
+    //funcion constructora
+    //version 1
+    function Animal(nombre, genero) {
+      //atributos
+      this.nombre = nombre;
+      this.genero = genero;
+
+      //Metodos
+      this.sonar = function () {
+        console.log("Hago sonidos por q estoy vivo");
+      }
+
+      this.saludar = function () {
+        console.log(`Hola me llamo ${this.nombre}`);
+      }
+    }
+    //--version 1
+    
+    //Funcion constructora donde asignamos los metodos al Prototipo, no a la Funsion como tal.
+    //--version 2
+    function Animal(nombre, genero) {
+      //atributos
+      this.nombre = nombre;
+      this.genero = genero;
+    }
+    
+    //Metodos agregados al Prototipo de la funcion constructora
+    Animal.prototype.sonar = function () {
+      console.log("Hago sonidos por q estoy vivo");
+    }
+    
+    Animal.prototype.saludar = function () {
+      console.log(`Hola me llamo ${this.nombre}`);
+    }
+    
+    
+    const snoopy = new Animal("Snoopy", "Macho"),
+    lolaBunny = new Animal("Lola Bunny", "Hembra")
+    //--version 2
+    
+    console.log(snoopy);
+    console.log(lolaBunny);
+    
+    snoopy.sonar();
+    snoopy.saludar();
+    
+    lolaBunny.sonar();
+    lolaBunny.saludar();
+    */
+
     /**/
     /**/
 
