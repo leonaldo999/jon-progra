@@ -822,6 +822,57 @@
     lolaBunny.saludar();
     */
 
+    /*
+    //Funcion constructora donde asignamos los metodos al Prototipo, no a la Funsion como tal.
+    function Animal(nombre, genero) {
+      //atributos
+      this.nombre = nombre;
+      this.genero = genero;
+    }
+
+    //Metodos agregados al Prototipo de la funcion constructora
+    Animal.prototype.sonar = function () {
+      console.log("Hago sonidos por q estoy vivo");
+    }
+
+    Animal.prototype.saludar = function () {
+      console.log(`Hola me llamo ${this.nombre}`);
+    }
+
+    //Herencia Prototipica
+    function Perro(nombre, genero, tamanio) {
+      this.super = Animal;
+      this.super(nombre, genero);
+      this.tamanio = tamanio;
+    }
+
+    //Perro esta heredando de Animal
+    Perro.prototype = new Animal();
+    Perro.prototype.constructor = Perro;
+
+    //Sobre escritura de metodos del prototipo padre en el hijo
+    Perro.prototype.sonar = function () {
+      console.log("Soy un pero y mi sonido es un ladrido");
+    }
+
+    Perro.prototype.ladrar = function () {
+      console.log("Guauuu, Guauuu !!!");
+    }
+
+    const snoopy = new Perro("Snoopy", "Macho", "Mediano"),
+      lolaBunny = new Animal("Lola Bunny", "Hembra")
+
+    console.log(snoopy);
+    console.log(lolaBunny);
+
+    snoopy.sonar();
+    snoopy.saludar();
+    snoopy.ladrar();
+
+    lolaBunny.sonar();
+    lolaBunny.saludar();
+    */
+
     /**/
     /**/
 
